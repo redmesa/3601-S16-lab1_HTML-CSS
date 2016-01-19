@@ -1,10 +1,15 @@
+body {
+    background-color: black;
+
+}
 h2 {
     color: red;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
-p {
+h3 {
     font-family: monospace;
+    color: white;
 }
 
 img {
@@ -16,4 +21,40 @@ img {
 
 .centerText {
     text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #af0f20;
+}
+
+.active {
+    background-color: #0e16af;
+}
+
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-family: Arial;
+    color:white ;
 }
