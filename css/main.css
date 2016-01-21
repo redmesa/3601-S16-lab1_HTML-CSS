@@ -6,22 +6,30 @@ body {
 h1{
     color: blue;
     font-family: Arial;
+    font-size: xx-large;
 }
 h2 {
-    color: red;
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+    color: white;
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
 }
 
-h3 {
+h3{
     font-family: monospace;
     color: white;
+    font-size: x-large;
+    text-align: center;
 }
 
 img{
     display: block;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
-    ;
+}
+.picture{
+    border-radius: 50%;
+    width: 80%;
 }
 
 
@@ -55,6 +63,7 @@ a:hover:not(.active) {
 
 .active {
     background-color: #0e16af;
+
 }
 
 h1 {
