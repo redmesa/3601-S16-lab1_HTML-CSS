@@ -112,7 +112,7 @@ h1 {
 #innerDiv p {
     color: red;
     font-weight: bold;
-    text-align: center;
+    text-align: center ;
     font-size: large;
     text-decoration: underline;
 }
