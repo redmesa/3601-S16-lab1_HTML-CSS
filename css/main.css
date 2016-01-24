@@ -12,7 +12,7 @@ h2 {
     color: white;
     font-family: Arial;
     font-size: larger;
-    text-align: center;
+    text-align: left;
 }
 
 h3{
@@ -22,14 +22,42 @@ h3{
     text-align: center;
 }
 
+h4{
+    font-family: Arial;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+h5{
+    font-family: Arial;
+    color: white;
+    font-size: x-large;
+    text-align: left;
+    margin-left: 10%;
+}
+
+/*grouping*/
 img{
     display: block;
     width: 100%;
-    margin-left: auto;
+    margin-right: auto;
 }
 .picture{
     border-radius: 50%;
     width: 80%;
+}
+
+.picture1{
+    border-radius: 15%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second{
+    float: left;
+
 }
 
 
@@ -69,13 +97,43 @@ a:hover:not(.active) {
 h1 {
     text-align: center;
 }
+
+/*Nesting*/
+#innerDiv {
+    background-color: black;
+    padding: 1em
+}
+
+#innerDiv h1 {
+    color: yellow;
+    text-align: center;
+}
+
+#innerDiv p {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+}
+
+h6{
+    text-align: center;
+    font-size: larger;
+    color: white;
+
+}
+
+
+
 footer {
     text-align: center;
+    margin-top: 100px;
     font-family: Arial;
     color:white ;
     clear: both;
     position: relative;
     z-index: 10;
     height: 3em;
-    margin-top: -3em;
+
 }
