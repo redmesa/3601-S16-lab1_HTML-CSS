@@ -7,6 +7,7 @@ h1{
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    text-align: center;
 }
 h2 {
     color: white;
@@ -92,10 +93,6 @@ a:hover:not(.active) {
 .active {
     background-color: #0e16af;
 
-}
-
-h1 {
-    text-align: center;
 }
 
 /*Nesting*/
